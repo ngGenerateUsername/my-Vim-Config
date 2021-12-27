@@ -16,5 +16,5 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 	Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 
 	Plug 'thosakwe/vim-flutter'
-
+	Plug 'https://github.com/SirVer/ultisnips.git'
 call plug#end()
