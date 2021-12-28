@@ -46,3 +46,9 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+#debug config (java ,python ,c)
+autocmd filetype java nnoremap <F5> :w <bar> !javac % && java -enaleassertions %:r <CR> 
+autocmd filetype python nnoremap <F5> :w <bar> !python % <CR>
+autocmd filetype c nnoremap <F5> :w <bar> !gcc % -o app <bar> app.exe
+
+
